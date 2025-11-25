@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1 HTML - Basic 1 FE</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <p class=
+    "text-3xl 
+    pb-4 
+    text-blue-500 
+    font-bold
+    pl-6 
+    pt-6
+    bg-yellow-100">Hello world!</p><hr>
+    <p>Haloo saya Yuda</p>
+    <!-- ini commentar untuk baris ini pakai ctrl+/ -->
+
+    <h1>Ini adalah heading 1</h1>
+    <h2>Ini adalah heading 2</h2>
+    <h3>Ini adalah heading 3</h3>
+    <h4>Ini adalah heading 4</h4>
+    <h5>Ini adalah heading 5</h5><br>
+
+    <p>teks ini ada <b>Bold</b>, <i>italic</i>, 
+        <u>underline</u>, </p>
+    <p>ini tulisan yang ke <sub>bawah</sub> dan ke <sup>atas</sup></p>
+    <h1>Bullet Point</h1>
+    <ul type="square">
+        <!-- unordered-list -->
+        <li>Pisang <p>Pisang adalah buah-buahan</p></li>
+        <li>Apel</li>
+        <li>Mangga</li>
+        <!-- List Item -->
+        <li>Jeruk</li>
+    </ul> 
+    <h1>Urutan Angka</h1>
+    <!-- ordered-list -->
+    <p>Cara menjalankan HTML pakai Vscode</p>
+    <ol type="i">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+    <h1>Table</h1>
+  <table class="min-w-full text-left text-sm text-gray-600">
+    <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alfred</td>
+                <td>asd@asda</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Budi</td>
+                <td>asda@sada</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>ladkals@asd</td>
+                <td>USA</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Gambar</h1>
+    <img src="img/Go Younjung _ 고윤정 for Marithè François Girbaud (2).jpeg" alt="goyounjung" height="150px"><br>
+    <img src="data:image/jpeg;base64,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" 
+    alt="irene" height="150px">
+
+    <h1>Link</h1>
+    <p>Ini adalah link ke <a href="https://www.instagram.com/yudapratamaa77/"
+        target="_blank">Instagram</a></p>
+    <a href="second.html">Second HTML</a>
+    <a href="#lorem">Go to lorem</a>
+
+    <h1>Form Contact Us</h1>
+    <form action="">
+        <label for="">Nama</label>
+        <input type="text"><br>
+
+        <label for="">Umur</label>
+        <input type="number" min="0" max="120"><br>
+        
+        <label for="">Password</label>
+        <input type="password"><br>
+        
+        <label for="">Jenis Kelamin</label><br>
+        <input type="radio" value="male" name="jenis-kelamin">Laki-laki
+        <input type="radio" value="female" name="jenis-kelamin">Perempuan <br>
+        
+        <label for="">Makanan favorit</label><br>
+        <select name="" id="">
+            <option value="nasgor">Nasgor</option>
+            <option value="mie-goreng">Mie Goreng</option>
+            <option value="sate">Sate</option>
+        </select>
+
+        <label for="">Comment</label>
+        <br>
+        <textarea name="" id="" rows="5" cols="30"></textarea><br>
+        
+        <input type="checkbox">Saya setuju dengan ketentuan ini <br>
+        
+        <input type="submit" value="kirim"> 
+        <button type="submit">Send</button>
+    </form>
+
+    <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, a numquam non aliquam nam vero accusamus, saepe eligendi amet nulla, illum aut maxime. Ipsa temporibus consequatur vero eius rerum vitae!</p>
+    
+    
+   
+
+      
+    
+</body>
+</html>
